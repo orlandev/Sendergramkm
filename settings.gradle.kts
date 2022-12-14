@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 rootProject.name = "Sendergramkm"
 include(":androidApp")
 include(":shared")
+include(":sendergram-desktop")

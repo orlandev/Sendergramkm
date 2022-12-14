@@ -41,6 +41,7 @@ kotlin {
         // Configure fields required by CocoaPods.
         summary = "Sendergram"
         homepage = ""
+
     }
 
     sourceSets {
@@ -159,7 +160,7 @@ android {
 
 tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
 }
 
