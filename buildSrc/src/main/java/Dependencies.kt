@@ -30,7 +30,7 @@ object Versions {
     const val composeBom = "2022.11.00"
     const val composeCompiler = "1.3.2"
     const val activityCompose = "1.6.1"
-    const val navCompose = "2.5.2"
+    const val navCompose = "2.5.3"
     const val wearCompose = "1.1.0" //Only For Test
     const val composeDesktopWeb = "1.2.1-rc03" //Only For Test
     const val composeIos = "1.2.1-rc03" //Only For Test
@@ -158,7 +158,7 @@ object Deps {
         const val uiMaterial3 = "androidx.compose.material3:material3"
         const val uiMaterial3WindowSizeClass = "androidx.compose.material3:material3-window-size-class"
         const val runtime = "androidx.compose.runtime:runtime"
-        const val compiler = "androidx.compose.compiler:compiler::${Versions.composeCompiler}"
+        const val compiler = "androidx.compose.compiler:compiler:${Versions.composeCompiler}"
         const val iconsCore = "androidx.compose.material:material-icons-core"
         const val iconsExtended = "androidx.compose.material:material-icons-extended"
         const val navigation = "androidx.navigation:navigation-compose:${Versions.navCompose}"

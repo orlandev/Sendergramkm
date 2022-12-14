@@ -51,7 +51,8 @@ dependencies {
     }
 
     with(Deps.Compose) {
-        implementation(composeBom)
+        val composeBomValue = platform(composeBom)
+        implementation(composeBomValue)
         implementation(activityCompose)
         implementation(foundationLayout)
         implementation(activityCompose)
@@ -84,10 +85,10 @@ dependencies {
         testImplementation(mockito)
 
         // Compose testing dependencies
-        androidTestImplementation(composeUiTest)
+     /*   androidTestImplementation(composeUiTest)
         androidTestImplementation(composeUiTestJUnit)
         androidTestImplementation(composeNavTesting)
-        debugImplementation(composeUiTestManifest)
+        debugImplementation(composeUiTestManifest)*/
 
     }
 
